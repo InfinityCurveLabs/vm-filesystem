@@ -27,11 +27,11 @@ class TaskVmFileListCommand( HcKaineCommand ):
 
         parser.epilog = (
             "example usage:\n"
-            "  ls C:\\\\Windows\\\\Temp\n"
-            "  ls C:\\\\Windows\\\\Users\\\\John\\\\Documents\n"
-            "  ls \\\\\\\\.\\\\pipe\\\\*mojo.*\n"
+            "  vm-ls C:\\\\Windows\\\\Temp\n"
+            "  vm-ls C:\\\\Windows\\\\Users\\\\John\\\\Documents\n"
+            "  vm-ls \\\\\\\\.\\\\pipe\\\\*mojo.*\n"
             "\n"
-            "the ls command allows to use the * symbol to query\n"
+            "the vm-ls command allows to use the * symbol to query\n"
             "for specific or certain files and extensions.\n"
         )
 
