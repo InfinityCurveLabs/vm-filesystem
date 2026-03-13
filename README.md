@@ -4,9 +4,9 @@ A Firebeam bytecode to perform Filesystem interacting while also monkey-patch th
 
 This repository also is a representation of what is possible via the Firebeam Virtual Machine and the modularity capacity of the Client itself, allowing alternate methods of filesystem interaction from both agent console and User Interface via monkey-patched functions. 
 
-## monkey-patching for Virtual Machine execution 
+## monkey-patching for bytecode execution 
 
-The script will monkey-patch the methods used the File Browser to issue the tasks to the agent. Displaying the capability available to the operator and external toolings. 
+The script will monkey-patch the methods used by the File Browser to issue tasks to the agent and replace them with bytecode interpretation and execution of the equivalent task through an alternate method, thereby demonstrating the capabilities available to the operator and external tooling.
 
 ![File Browser](./static/FileBrowser.png)
 
