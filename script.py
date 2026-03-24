@@ -12,7 +12,8 @@ KAINE_FILESYSTEM_CONFIG = 'extension'
 @KnRegisterCommand(
     command     = 'vm-ls',
     description = 'file listing using firebeam',
-    group       = 'filesystem commands' )
+    group       = 'filesystem commands',
+    platform    = 'Windows' )
 class TaskVmFileListCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
@@ -265,7 +266,8 @@ class TaskVmFileListCommand( HcKaineCommand ):
 @KnRegisterCommand(
     command     = 'vm-drives',
     description = 'list all available drives',
-    group       = 'filesystem commands' )
+    group       = 'filesystem commands',
+    platform    = 'Windows' )
 class TaskVmListDrivesCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
@@ -387,7 +389,8 @@ class TaskVmListDrivesCommand( HcKaineCommand ):
 @KnRegisterCommand(
     command     = 'vm-mkdir',
     description = 'make a new directory',
-    group       = 'filesystem commands' )
+    group       = 'filesystem commands',
+    platform    = 'Windows' )
 class TaskMkdirCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
@@ -484,7 +487,8 @@ class TaskMkdirCommand( HcKaineCommand ):
 @KnRegisterCommand(
     command     = 'vm-remove',
     description = 'remove a file or directory',
-    group       = 'filesystem commands' )
+    group       = 'filesystem commands',
+    platform    = 'Windows' )
 class TaskRemoveCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
@@ -580,7 +584,8 @@ class TaskRemoveCommand( HcKaineCommand ):
 @KnRegisterCommand(
     command     = 'vm-move',
     description = 'move a file',
-    group       = 'filesystem commands' )
+    group       = 'filesystem commands',
+    platform    = 'Windows' )
 class TaskMoveCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
