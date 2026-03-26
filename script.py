@@ -391,7 +391,7 @@ class TaskVmListDrivesCommand( HcKaineCommand ):
     description = 'make a new directory',
     group       = 'filesystem commands',
     platform    = 'Windows' )
-class TaskMkdirCommand( HcKaineCommand ):
+class TaskVmMkdirCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
         super().__init__( *args, **kwargs )
@@ -489,7 +489,7 @@ class TaskMkdirCommand( HcKaineCommand ):
     description = 'remove a file or directory',
     group       = 'filesystem commands',
     platform    = 'Windows' )
-class TaskRemoveCommand( HcKaineCommand ):
+class TaskVmRemoveCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
         super().__init__( *args, **kwargs )
@@ -586,7 +586,7 @@ class TaskRemoveCommand( HcKaineCommand ):
     description = 'move a file',
     group       = 'filesystem commands',
     platform    = 'Windows' )
-class TaskMoveCommand( HcKaineCommand ):
+class TaskVmMoveCommand( HcKaineCommand ):
 
     def __init__( self, *args, **kwargs ):
         super().__init__( *args, **kwargs )
